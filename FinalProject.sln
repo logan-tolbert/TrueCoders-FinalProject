@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35605.110 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlDataAccess", "SqlDataAccess\SqlDataAccess.csproj", "{139DC0DE-2818-4871-983F-7D13676DA04C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGateway", "SqlDataAccess\DataGateway.csproj", "{139DC0DE-2818-4871-983F-7D13676DA04C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

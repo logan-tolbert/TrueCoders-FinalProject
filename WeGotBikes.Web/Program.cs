@@ -1,10 +1,13 @@
+using WeGotBikes.Contracts;
 using WeGotBikes.DataGateway;
+using WeGotBikes.Repository.SalesRepository;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddTransient<IDataAccess, SqlDataAccess>();
+builder.Services.AddTransient<ICustomersRepository, CustomersRepository>();
 
 var app = builder.Build();
 

@@ -19,6 +19,6 @@ public class CustomersRepository : ICustomersRepository
         string sqlStatement = @"select * 
                                 from sales.customers;
                                 ";
-        return _db.LoadData<Customer, dynamic>(sqlStatement, new { }, "Default", true).ToList();
+        return _db.LoadData<Customer, dynamic>(sqlStatement, new { }, "Default", false).ToList();
     }
 }

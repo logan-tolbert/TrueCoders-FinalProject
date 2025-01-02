@@ -1,11 +1,10 @@
 ﻿using Dapper;
-using DataGateway;
 using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
 using System.Data;
 
 
-namespace App.Library.Context
+namespace WeGotBikes.DataGateway
 {
     public class SqlDataAccess : IDataAccess
     {

@@ -1,12 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using WeGotBikes.DataGateway;
+using WeGotBikes.Models.Sales;
 
-namespace WeGotBikes.Repository.SalesRepository
+namespace WeGotBikes.Repository.SalesRepository;
+
+public class CustomersRepository
 {
-    internal class CustomersRepository
+    private readonly IDataAccess _db;
+
+    public CustomersRepository(IDataAccess db)
     {
+        _db = db;
+    }
+
+    public List<Customer> GetAllCustomers()
+    {
+        string sqlStatement = @"select * 
+                                from sales.customers;
+                                ";
+        return _db.LoadData<Customer, dynamic>(sqlStatement, new { }, "Default", true).ToList();
     }
 }

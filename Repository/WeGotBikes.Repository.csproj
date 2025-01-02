@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SqlDataAccess\WeGotBikes.DataGateway.csproj" />
+    <ProjectReference Include="..\WeGotBikes.Models\WeGotBikes.Models.csproj" />
+  </ItemGroup>
+
 </Project>

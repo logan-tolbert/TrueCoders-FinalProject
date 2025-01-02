@@ -1,9 +1,11 @@
-﻿using WeGotBikes.DataGateway;
+﻿using WeGotBikes.Contracts;
+using WeGotBikes.DataGateway;
 using WeGotBikes.Models.Sales;
+
 
 namespace WeGotBikes.Repository.SalesRepository;
 
-public class CustomersRepository
+public class CustomersRepository : ICustomersRepository
 {
     private readonly IDataAccess _db;
 

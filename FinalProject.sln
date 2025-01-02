@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeGotBikes.Repository", "Re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeGotBikes.Models", "WeGotBikes.Models\WeGotBikes.Models.csproj", "{D6FE3695-8C04-4EB9-A70B-81E76909EC7F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeGotBikes.Contracts", "Contracts\WeGotBikes.Contracts.csproj", "{2E516AD8-FB17-4F1F-8B20-595B4DCBC97C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{D6FE3695-8C04-4EB9-A70B-81E76909EC7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6FE3695-8C04-4EB9-A70B-81E76909EC7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6FE3695-8C04-4EB9-A70B-81E76909EC7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E516AD8-FB17-4F1F-8B20-595B4DCBC97C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E516AD8-FB17-4F1F-8B20-595B4DCBC97C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E516AD8-FB17-4F1F-8B20-595B4DCBC97C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E516AD8-FB17-4F1F-8B20-595B4DCBC97C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
